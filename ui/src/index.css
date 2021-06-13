@@ -39,7 +39,8 @@ li {
   margin-bottom: var(--spacing);
 }
 
-a {
+a,
+a:visited {
   color: var(--text-color);
 }
 
