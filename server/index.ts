@@ -18,7 +18,6 @@ if (process.env.NODE_ENV !== "production") {
 
 server.use(async (req: RequestContext, res, next) => {
   req.db = await database.pool();
-
   next();
 });
 
